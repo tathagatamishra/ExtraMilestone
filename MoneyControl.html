@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Money Control</title>
+    <!-- ---------------ignore style------------ -->
+    <style>
+        body {
+            height: 800px;
+            background-color: rgb(13, 17, 34);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            box-shadow: 0 0 50px rgb(0, 255, 183);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            height: 200px;
+            width: 350px;
+            border: 10px solid rgb(23, 171, 0);
+            background-color: rgb(255, 215, 166);
+            border-radius: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 40px;
+        }
+
+        input {
+            width: 120px;
+            height: 40px;
+            border: 2px solid rgb(79, 126, 43);
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgb(255, 157, 82);
+            text-align: center;
+            font-weight: bold;
+            color: rgb(0, 66, 21);
+        }
+
+        h3 {
+            color: rgba(0, 0, 0, 0.261);
+        }
+
+        img {
+            width: 50px;
+        }
+    </style>
+
+
+    <!-- ---------------JavaScript-------------- -->
+    <script>
+
+        // this a user defined function
+        // function name is usd2rs()
+        // what this function do ??
+
+        // there is a <input> tag, it's name is "usd"
+        // there is a <input> tag, it's name is "rs"
+        // it multiply the value of "usd" with 81, and assign the value to "rs"
+        // rs value = usd value * 81
+
+        function usd2rs(form) {
+            form.rs.value = form.usd.value * 81
+        }
+
+        // this a user defined function
+        // function name is rs2usd()
+        // what this function do ??
+
+        // there is a <input> tag, it's name is "usd"
+        // there is a <input> tag, it's name is "rs"
+        // it devide the value of "rs" with 81, and assign the value to "usd"
+        // usd value = rs value / 81
+
+        function rs2usd(form) {
+            form.usd.value = form.rs.value / 81
+
+        }
+
+    </script>
+</head>
+
+<!-- -------------------------------------------- -->
+
+<body>
+
+    <!-- -----this form is holding everything----- -->
+    <form>
+        <div>
+
+            <h3>USD</h3>
+
+            <!-- ------input the USD value-------- -->
+            <input type="text" name="usd" size="15">
+<br><br>
+            <!-- --------click the button------------>
+            <input type="button" value="UDS to RS" onclick="usd2rs(form)">
+
+        </div>
+
+        <img src="https://www.pngkey.com/png/full/230-2305779_exchange-icon-free-download-fluxo-de-caixa-png.png">
+
+        <div>
+
+            <h3>RS</h3>
+
+            <!-- ------input the RS value-------- -->
+            <input type="text" name="rs" size="15">
+<br><br>
+            <!-- --------click the button------------>
+            <input type="button" value="RS to USD" onclick="rs2usd(form)">
+
+        </div>
+    </form>
+
+</body>
+
+</html>
