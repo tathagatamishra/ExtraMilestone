@@ -1,6 +1,6 @@
 # Extra Milestone
 
-## Inside this repository, each branch contains different unique projects
+## Inside this repository, each branch contains different unique projects created by me
 
 ### 1. Every branch has its own README.md file
 ### 2. Every README file contains Google-Drive link
