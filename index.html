@@ -8,11 +8,12 @@
     <title>Virtual Keyboard</title>
 
     <style>
-        html, body {
-            background-color: #100919;
+        html,
+        body {
+            /* background-color: #100919; */
             margin: 0;
         }
-        
+
         .holder {
             /* border: 1px solid red; */
             font-family: Arial, Helvetica, sans-serif;
@@ -22,14 +23,16 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            /* background-color: #100919; */
+            background-image: linear-gradient(#100919, rgb(0, 0, 0), rgb(41, 9, 9));
         }
-        
+
         h1 {
             /* border: 2px solid red; */
             color: rgb(162, 255, 0);
             text-shadow: 0 0 20px rgba(0, 255, 106, 0.562);
         }
-        
+
         .screen {
             margin-top: 30px;
             margin-bottom: 30px;
@@ -44,7 +47,7 @@
             align-items: center;
             justify-content: center;
         }
-        
+
         p {
             color: #353535;
         }
@@ -59,7 +62,7 @@
             justify-content: center;
             /* justify-content: space-around; */
         }
-        
+
         button {
             width: 40px;
             height: 25px;
@@ -67,6 +70,15 @@
             border-radius: 20px;
             background-color: #5b5b5b;
             color: rgb(170, 255, 0);
+        }
+
+        #sub {
+            width: 80px;
+            height: 25px;
+            border-color: #ff1e00;
+            border-radius: 5px;
+            background-color: #ff0800;
+            color: rgb(255, 255, 255);
         }
 
         #key1 {
@@ -117,11 +129,20 @@
             background-color: #5b5b5b;
             color: rgb(170, 255, 0);
         }
+
+        #lol {
+            color: #7c7c7c;
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none
+        }
     </style>
 
 
     <script>
-       
+
         function input(output) {
             document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + output.innerHTML
         }
@@ -130,6 +151,12 @@
         }
         function cls() {
             document.getElementById("text").innerHTML = ""
+        }
+        function sub() {
+            document.getElementById("text").innerHTML = "Thank You"
+        }
+        function delay(URL) {
+            setTimeout(function () { window.location = URL }, 2000);
         }
 
     </script>
@@ -145,59 +172,67 @@
         <br>
         <div class="keyboard">
             <div id="key1">
-                <button id="1" onclick="input(this)">1</button>
-                <button id="2" onclick="input(this)">2</button>
-                <button id="3" onclick="input(this)">3</button>
-                <button id="4" onclick="input(this)">4</button>
-                <button id="5" onclick="input(this)">5</button>
-                <button id="6" onclick="input(this)">6</button>
-                <button id="7" onclick="input(this)">7</button>
-                <button id="8" onclick="input(this)">8</button>
-                <button id="9" onclick="input(this)">9</button>
-                <button id="0" onclick="input(this)">0</button>
+                <button onclick="input(this)">1</button>
+                <button onclick="input(this)">2</button>
+                <button onclick="input(this)">3</button>
+                <button onclick="input(this)">4</button>
+                <button onclick="input(this)">5</button>
+                <button onclick="input(this)">6</button>
+                <button onclick="input(this)">7</button>
+                <button onclick="input(this)">8</button>
+                <button onclick="input(this)">9</button>
+                <button onclick="input(this)">0</button>
             </div>
             <br>
             <div id="key2">
-                <button id="q" onclick="input(this)">Q</button>
-                <button id="w" onclick="input(this)">W</button>
-                <button id="e" onclick="input(this)">E</button>
-                <button id="r" onclick="input(this)">R</button>
-                <button id="t" onclick="input(this)">T</button>
-                <button id="y" onclick="input(this)">Y</button>
-                <button id="u" onclick="input(this)">U</button>
-                <button id="i" onclick="input(this)">I</button>
-                <button id="o" onclick="input(this)">O</button>
-                <button id="p" onclick="input(this)">P</button>
+                <button onclick="input(this)">Q</button>
+                <button onclick="input(this)">W</button>
+                <button onclick="input(this)">E</button>
+                <button onclick="input(this)">R</button>
+                <button onclick="input(this)">T</button>
+                <button onclick="input(this)">Y</button>
+                <button onclick="input(this)">U</button>
+                <button onclick="input(this)">I</button>
+                <button onclick="input(this)">O</button>
+                <button onclick="input(this)">P</button>
             </div>
             <br>
             <div id="key3">
-                <button id="a" onclick="input(this)">A</button>
-                <button id="s" onclick="input(this)">S</button>
-                <button id="d" onclick="input(this)">D</button>
-                <button id="f" onclick="input(this)">F</button>
-                <button id="g" onclick="input(this)">G</button>
-                <button id="h" onclick="input(this)">H</button>
-                <button id="j" onclick="input(this)">J</button>
-                <button id="k" onclick="input(this)">K</button>
-                <button id="l" onclick="input(this)">L</button>
+                <button onclick="input(this)">A</button>
+                <button onclick="input(this)">S</button>
+                <button onclick="input(this)">D</button>
+                <button onclick="input(this)">F</button>
+                <button onclick="input(this)">G</button>
+                <button onclick="input(this)">H</button>
+                <button onclick="input(this)">J</button>
+                <button onclick="input(this)">K</button>
+                <button onclick="input(this)">L</button>
             </div>
             <br>
             <div id="key4">
-                <button id="z" onclick="input(this)">Z</button>
-                <button id="x" onclick="input(this)">X</button>
-                <button id="c" onclick="input(this)">C</button>
-                <button id="v" onclick="input(this)">V</button>
-                <button id="b" onclick="input(this)">B</button>
-                <button id="n" onclick="input(this)">N</button>
-                <button id="m" onclick="input(this)">M</button>
+                <button onclick="input(this)">Z</button>
+                <button onclick="input(this)">X</button>
+                <button onclick="input(this)">C</button>
+                <button onclick="input(this)">V</button>
+                <button onclick="input(this)">B</button>
+                <button onclick="input(this)">N</button>
+                <button onclick="input(this)">M</button>
             </div>
             <br>
             <div id="key5">
-                <button id="hi" onclick="input(this)">.</button>
-                <button id="sp" onclick="space()">__</button>
-                <button id="cl" onclick="cls()">DEL</button>
+                <button onclick="input(this)">.</button>
+                <button onclick="space()">__</button>
+                <button onclick="cls()">DEL</button>
             </div>
         </div>
+
+        <p id="lol"><i>just a simple keyboard</i></p>
+
+        <button id="sub" onclick="sub()">
+            <a href="javascript:delay('https://www.youtube.com/@vfxinvein')">
+                Subscribe
+            </a>
+        </button>
     </div>
 </body>
 
