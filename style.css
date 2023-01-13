@@ -30,7 +30,11 @@ body {
 	/* background-image:radial-gradient(rgb(124, 91, 255), rgba(255, 255, 255, 0) 50%); */
 }
 
-iframe {
+
+/* __________SCREEN____________ */
+
+
+#screen {
 	top: 108px;
 	width: 518px;
 	height: 291px;
@@ -72,21 +76,8 @@ iframe {
 }
 
 
-/* ********************************* */
+/* __________CAMERA____________ */
 
-
-#lg {
-	top: 403px;
-	width: 46px;
-	height: 32px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
-	color: #dadada;
-	z-index: 9;
-	position: absolute;
-}
 
 #cam_holder {
 	top: 75px;
@@ -121,7 +112,7 @@ iframe {
 }
 
 
-/* ********************************* */
+/* __________STAND____________ */
 
 
 #leg {
@@ -153,8 +144,21 @@ iframe {
 }
 
 
-/* ********************************* */
+/* __________TEXT____________ */
 
+
+#lg {
+	top: 403px;
+	width: 46px;
+	height: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #dadada;
+	z-index: 9;
+	position: absolute;
+}
 
 #text1 {
 	top: 7px;

@@ -7,216 +7,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 
-	<!-- <link rel="StyleSheet" href="style.css" /> -->
-
-	<style>
-		body {
-	background: #ffffff;
-	/* background-image: linear-gradient(rgb(200, 231, 255), white, rgb(255, 213, 245)); */
-	/* height: 100vh; */
-	/* width: 100vw; */
-	/* position: absolute; */
-	/* top: 50%; */
-	/* left: 50%; */
-	/* transform: translate(-50%, -50%); */
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* align-items: center; */
-}
-
-::-webkit-scrollbar {
-	display: none;
-}
-
-
-.container {
-	height: 70vh;
-	width: 80vw;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	/* background-image:radial-gradient(rgb(124, 91, 255), rgba(255, 255, 255, 0) 50%); */
-}
-
-#screen {
-	top: 108px;
-	width: 518px;
-	height: 291px;
-	border-radius: 11px;
-	position: absolute;
-	z-index: 8;
-	background:
-		repeating-radial-gradient(rgb(0, 0, 0) 0 0.0001%, rgb(255, 255, 255) 0 0.0002%) 50% 0/2500px 2500px,
-		repeating-conic-gradient(rgb(255, 255, 255) 0 0.0001%, rgb(0, 0, 0) 0 0.0002%) 60% 60%/2500px 2500px;
-	background-blend-mode: difference;
-	animation: noize .2s infinite alternate;
-}
-
-@keyframes noize {
-	100% {
-		background-position: 50% 0, 60% 50%
-	}
-}
-
-#pc_rim {
-	position: absolute;
-	top: 100px;
-	width: 534px;
-	height: 322px;
-	border-radius: 13px;
-	background: rgba(0, 0, 0, 1);
-	z-index: 7;
-}
-
-#back-lit {
-	position: absolute;
-	top: 100px;
-	width: 534px;
-	height: 322px;
-	border-radius: 13px;
-	background: rgba(0, 0, 0, 1);
-	z-index: 0;
-	box-shadow: 0 0 20px rgba(0, 68, 255, 0.57);
-}
-
-
-/* ********************************* */
-
-
-#lg {
-	top: 403px;
-	width: 46px;
-	height: 32px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
-	color: #dadada;
-	z-index: 9;
-	position: absolute;
-}
-
-#cam_holder {
-	top: 75px;
-	width: 100px;
-	height: 60px;
-	border-radius: 20px / 20px;
-	border: 5px solid #000000;
-	background: rgba(45.69, 45.69, 45.69, 1);
-	z-index: 4;
-	position: absolute;
-}
-
-#cam_cover {
-	top: 82px;
-	width: 14px;
-	height: 14px;
-	border-radius: 50px / 50px;
-	border: 1px solid #8e8e8e;
-	background: rgba(0, 0, 0, 1);
-	z-index: 5;
-	position: absolute;
-}
-
-#cam_lens {
-	top: 88px;
-	width: 4px;
-	height: 4px;
-	border-radius: 50px / 50px;
-	background: rgba(0, 51.15, 88.19, 1);
-	z-index: 6;
-	position: absolute;
-}
-
-
-/* ********************************* */
-
-
-#leg {
-	top: 410px;
-	width: 69px;
-	height: 115px;
-	background: rgba(70.13, 70.13, 70.13, 1);
-	z-index: 1;
-	position: absolute;
-}
-
-#feet {
-	top: 510px;
-	width: 268px;
-	height: 34px;
-	border-radius: 20px;
-	background: rgba(43.56, 43.56, 43.56, 1);
-	z-index: 2;
-	position: absolute;
-}
-
-#feet_cover {
-	top: 530px;
-	width: 320px;
-	height: 20px;
-	background: rgb(255, 255, 255);
-	z-index: 3;
-	position: absolute;
-}
-
-
-/* ********************************* */
-
-
-#text1 {
-	top: 7px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
-	color: #9de5ff;
-	text-shadow: 0 0 30px rgb(254, 192, 255);
-	z-index: 9;
-	position: absolute;
-}
-
-#text2 {
-	top: 570px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
-	color: #ffa9fc;
-	text-shadow: 0 0 30px rgb(156, 210, 255);
-	z-index: 9;
-	position: absolute;
-	padding-bottom: 10%;
-}
-	</style>
+	<link rel="StyleSheet" href="style.css" />
 
 </head>
 
 <body>
-	<div id="b">
-		<div class="container">
 
-			<div id="lg">LOL</div>
-			<div id="screen"></div>
-			<div id="pc_rim"></div>
-			<div id="back-lit"></div>
-			<p id="text1">Generated Only Using CSS & HTML</p>
+	<div class="container">
 
-			<div id="cam_holder"></div>
-			<div id="cam_cover"></div>
-			<div id="cam_lens"></div>
+		<div id="screen"></div>
+		<div id="pc_rim"></div>
+		<div id="back-lit"></div>
+		
+		<div id="cam_holder"></div>
+		<div id="cam_cover"></div>
+		<div id="cam_lens"></div>
+		
+		<div id="leg"></div>
+		<div id="feet"></div>
+		<div id="feet_cover"></div>
+		
+		<div id="lg">LOL</div>
+		<p id="text1">Generated Only Using CSS & HTML</p>
+		<p id="text2">No SVG/PNG/VECTOR Image Used</p>
 
-			<div id="leg"></div>
-			<div id="feet"></div>
-			<div id="feet_cover"></div>
-			<p id="text2">No SVG/PNG/VECTOR Image Used</p>
-
-		</div>
 	</div>
+
 </body>
 
 </html>
