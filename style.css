@@ -16,7 +16,7 @@ body {
 
 	position: absolute;
 
-	border: solid red;
+	/* border: solid red; */
 
 	display: flex;
 	flex-direction: column;
