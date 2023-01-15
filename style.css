@@ -9,21 +9,22 @@ body {
 
 .container {
 
-	height: 97.5vh;
-	width: 97.5vw;
+	height: 70vh;
+	width: 70vw;
 
 	background: rgb(255, 255, 255);
 
 	position: absolute;
 
-	/* border: solid red; */
+	border: solid red;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
+	padding-bottom: 20%;
+	/* padding-left: 10%; */
+	margin-left: 14.5%;
 	cursor: url(icons8-lady-beetle-10.png), pointer;
-
 }
 
 
@@ -120,7 +121,7 @@ body {
 	border-radius: 20px / 20px;
 	border: 4.4px solid #000000;
 	background: rgba(45.69, 45.69, 45.69, 1);
-	z-index: 4;
+	z-index: 14;
 }
 
 #cam_cover {
@@ -140,7 +141,7 @@ body {
 	border-radius: 50px / 50px;
 	border: 1.33px solid #8e8e8e;
 	background: rgba(0, 0, 0, 1);
-	z-index: 5;
+	z-index: 15;
 }
 
 #cam_lens {
@@ -159,7 +160,7 @@ body {
 	height: 4px; */
 	border-radius: 50px / 50px;
 	background: rgb(1, 85, 146);
-	z-index: 6;
+	z-index: 16;
 }
 
 
@@ -242,7 +243,7 @@ body {
 	width: 46px;
 	height: 32px; */
 
-	font-size: 1.5vw;
+	font-size: 1.1vw;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
@@ -296,40 +297,11 @@ body {
 /* ________________ */
 
 
-#Polygon_1 {
-	width: 222px;
-	height: 100px;
-	left: 238px;
-	top: 290px;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid red;
-
-	position: absolute;
-}
-
-#Polygon_2 {
-
-	position: absolute;
-	width: 222px;
-	height: 100px;
-	left: 760px;
-	top: 290px;
-
-	background: #A2B2BE;
-}
-
 #box_top {
-	/* height: 0; */
-	/* width: 100px; */
 	background: rgb(78, 78, 78);
 	
 	width: 77%;
 	padding-bottom: 10%;
-	
-	/* border-bottom: 65px solid rgb(78, 78, 78);
-	border-left: 75px solid transparent;
-	border-right: 75px solid transparent; */
 	
 	margin-left: 10%;
 	margin-right: 10%;
@@ -421,126 +393,323 @@ body {
 	border: 1px solid #000000;
 }
 
-#Ellipse_1 {
+#light_1 {
 
-	background: rgb(86, 206, 11);
-	box-shadow: 0 0 10px rgb(204, 255, 0);
+	background: rgb(255, 0, 30);
+	box-shadow: 0 0 10px rgb(255, 0, 30);
 
-	width: 15%;
-	padding-bottom: 2%;
+	width: 2.5%;
+	padding-bottom: .5%;
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 59.6%;
+	margin-bottom: 10%;
+	
+	border-radius: 50px;
+
+	z-index: 13;
+	transform: rotate(90deg);
+	position: absolute;
+}
+#light_cover {
+
+	background: rgb(0, 0, 0);
+
+	width: 2.5%;
+	padding-bottom: 4%;
 	
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 58%;
 	margin-bottom: 10%;
-	
-	border-radius: 50px;
 
-	z-index: 10;
-
+	z-index: 12;
 	position: absolute;
 }
-#buttons {
+#light_2 {
+	background: rgb(255, 0, 0);
+	box-shadow: 0 0 10px rgb(255, 0, 30);
+	width: 4.5%;
+	padding-bottom: 4.5%;
 
-	background: rgb(194, 139, 91);
-	/* box-shadow: 0 0 10px rgb(204, 255, 0); */
-
-	width: 18%;
-	padding-bottom: 8%;
-	
-	margin-left: 50%;
-	margin-right: 10%;
-	margin-top: 56.7%;
-	margin-bottom: 10%;
-	
-	border-radius: 10%;
-
-	z-index: 10;
-
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 58.6%;
+	margin-bottom: 8%;
+	/* border: solid red 4.5px; */
+	border-radius: 50%;
+	z-index: 11;
 	position: absolute;
 }
+#light_cover2 {
+	background: rgb(0, 0, 0);
+	width: 3.6%;
+	padding-bottom: 3.6%;
 
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 58.99%;
+	margin-bottom: 8%;
+	/* border: solid red 4.5px; */
+	border-radius: 50%;
+	z-index: 12;
+	position: absolute;
+}
 #a {
 	background: rgb(0, 0, 0);
-	width: 12%;
-	padding-bottom: 12%;
+	width: 3%;
+	padding-bottom: 2%;
 
-	margin-left: 8%;
-	margin-right: 8%;
-	margin-top: 8%;
+	margin-left: 0%;
+	margin-right: 40%;
+	margin-top: 60%;
 	margin-bottom: 8%;
 	
 	border-radius: 50%;
 	z-index: 10;
+	position: absolute;
+}
+#ao {
+	width: 3%;
+	padding-bottom: 2%;
+
+	margin-left: 0%;
+	margin-right: 40%;
+	margin-top: 60%;
+	margin-bottom: 8%;
+	
+	font-size: 1.1vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #00d0ff;
+	z-index: 11;
 	position: absolute;
 }
 #b {
 	background: rgb(0, 0, 0);
-	width: 12%;
-	padding-bottom: 12%;
+	width: 3%;
+	padding-bottom: 2%;
 
-	margin-left: 8%;
-	margin-right: 8%;
-	margin-top: 25%;
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-top: 60%;
 	margin-bottom: 8%;
-
+	
 	border-radius: 50%;
 	z-index: 10;
+	position: absolute;
+}
+#bo {
+	width: 3%;
+	padding-bottom: 2%;
+
+	margin-left: 0%;
+	margin-right: 30%;
+	margin-top: 60%;
+	margin-bottom: 8%;
+	
+	font-size: 1.1vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #00d0ff;
+	z-index: 11;
 	position: absolute;
 }
 #c {
 	background: rgb(0, 0, 0);
-	width: 12%;
-	padding-bottom: 12%;
+	width: 3%;
+	padding-bottom: 2%;
 
-	margin-left: 45%;
-	margin-right: 8%;
-	margin-top: 8%;
+	margin-left: 0%;
+	margin-right: 20%;
+	margin-top: 60%;
 	margin-bottom: 8%;
-
+	
 	border-radius: 50%;
 	z-index: 10;
+	position: absolute;
+}
+#co {
+	width: 3%;
+	padding-bottom: 2%;
+
+	margin-left: 0%;
+	margin-right: 20%;
+	margin-top: 60%;
+	margin-bottom: 8%;
+	
+	font-size: 1.1vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #00d0ff;
+	z-index: 11;
 	position: absolute;
 }
 #d {
 	background: rgb(0, 0, 0);
-	width: 12%;
-	padding-bottom: 12%;
+	width: 3%;
+	padding-bottom: 2%;
 
-	margin-left: 45%;
-	margin-right: 8%;
-	margin-top:25%;
+	margin-left: 20%;
+	margin-right: 0%;
+	margin-top: 60%;
 	margin-bottom: 8%;
-
+	
 	border-radius: 50%;
 	z-index: 10;
+	position: absolute;
+}
+#do {
+	width: 3%;
+	padding-bottom: 2%;
+
+	margin-left: 20%;
+	margin-right: 0%;
+	margin-top: 60%;
+	margin-bottom: 8%;
+	
+	font-size: 1.1vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #00d0ff;
+	z-index: 11;
 	position: absolute;
 }
 #e {
 	background: rgb(0, 0, 0);
-	width: 12%;
-	padding-bottom: 12%;
+	width: 3%;
+	padding-bottom: 2%;
 
-	margin-left: 80%;
-	margin-right: 8%;
-	margin-top: 25%;
+	margin-left: 30%;
+	margin-right: 0%;
+	margin-top: 60%;
 	margin-bottom: 8%;
-
+	
 	border-radius: 50%;
 	z-index: 10;
 	position: absolute;
 }
+#eo {
+	width: 3%;
+	padding-bottom: 2%;
+
+	margin-left: 30%;
+	margin-right: 0%;
+	margin-top: 60%;
+	margin-bottom: 8%;
+	
+	font-size: 1.1vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #00d0ff;
+	z-index: 11;
+	position: absolute;
+}
 #f {
 	background: rgb(0, 0, 0);
-	width: 12%;
-	padding-bottom: 12%;
+	width: 3%;
+	padding-bottom: 2%;
 
-	margin-left: 80%;
-	margin-right: 8%;
-	margin-top: 8%;
+	margin-left: 40%;
+	margin-right: 0%;
+	margin-top: 60%;
 	margin-bottom: 8%;
-
+	
 	border-radius: 50%;
+	z-index: 10;
+	position: absolute;
+}
+#fo {
+	width: 3%;
+	padding-bottom: 2%;
+
+	margin-left: 40%;
+	margin-right: 0%;
+	margin-top: 60%;
+	margin-bottom: 8%;
+	
+	font-size: 1.1vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #00d0ff;
+	z-index: 11;
+	position: absolute;
+}
+#power {
+	background: rgb(0, 0, 0);
+	width: 7%;
+	padding-bottom: 7%;
+
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 57.3%;
+	margin-bottom: 8%;
+	
+	border-radius: 50%;
+	z-index: 10;
+	position: absolute;
+}
+
+#speak_r {
+	background: rgb(110, 110, 110);
+	width: 8%;
+	padding-bottom: 6%;
+
+	margin-left: 2%;
+	margin-right: 69%;
+	margin-top: 57.8%;
+	margin-bottom: 8%;
+	
+	border-radius: 35%;
+	z-index: 10;
+	position: absolute;
+}
+#speak_l {
+	background: rgb(110, 110, 110);
+	width: 8%;
+	padding-bottom: 6%;
+
+	margin-left: 69%;
+	margin-right: 2%;
+	margin-top: 57.8%;
+	margin-bottom: 8%;
+	
+	border-radius: 35%;
+	z-index: 10;
+	position: absolute;
+}
+#speak_rx {
+	background-image: repeating-linear-gradient(rgb(0, 0, 0), rgb(125, 125, 125) 10%);
+	width: 7%;
+	padding-bottom: 5%;
+
+	margin-left: 2%;
+	margin-right: 69%;
+	margin-top: 58.33%;
+	margin-bottom: 8%;
+	
+	border-radius: 35%;
+	z-index: 10;
+	position: absolute;
+}
+#speak_lx {
+	background-image: repeating-linear-gradient(rgb(0, 0, 0), rgb(125, 125, 125) 10%);
+	width: 7%;
+	padding-bottom: 5%;
+
+	margin-left: 69%;
+	margin-right: 2%;
+	margin-top: 58.33%;
+	margin-bottom: 8%;
+	
+	border-radius: 35%;
 	z-index: 10;
 	position: absolute;
 }
