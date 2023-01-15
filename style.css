@@ -1,15 +1,5 @@
 body {
 	background: #ffffff;
-	/* background-image: linear-gradient(rgb(200, 231, 255), white, rgb(255, 213, 245)); */
-	/* height: 100vh; */
-	/* width: 100vw; */
-	/* position: absolute; */
-	/* top: 50%; */
-	/* left: 50%; */
-	/* transform: translate(-50%, -50%); */
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* align-items: center; */
 }
 
 ::-webkit-scrollbar {
@@ -18,37 +8,22 @@ body {
 
 
 .container {
-	/* padding: 10px;
-	background: white;
-	box-sizing: border-box;
-	resize: horizontal;
-	border: 1px dashed;
-	overflow: auto;
-	max-width: 100%;
-	height: calc(100vh - 16px); */
-	/* height: 70vh; */
-	/* width: 80vw; */
-	
-	/* top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); */
 
-	/* position: absolute; */
+	height: 97.5vh;
+	width: 97.5vw;
 
-	/* display: block; */
+	background: rgb(255, 255, 255);
+
+	position: absolute;
+
 	/* border: solid red; */
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
-	width: 80%;
-    padding-bottom: 70%;
 
-	margin-left: 10%;
-	margin-right: 10%;
-	/* margin-top: 10%;
-	margin-bottom: 10%; */
-	/* background-image:radial-gradient(rgb(124, 91, 255), rgba(255, 255, 255, 0) 50%); */
+	cursor: url(icons8-lady-beetle-10.png), pointer;
+
 }
 
 
@@ -58,7 +33,7 @@ body {
 #screen {
 
 	width: 48%;
-    padding-bottom: 27%;
+	padding-bottom: 27%;
 
 	margin-left: 10%;
 	margin-right: 10%;
@@ -75,7 +50,7 @@ body {
 		repeating-conic-gradient(rgb(255, 255, 255) 0 0.0001%, rgb(0, 0, 0) 0 0.0002%) 60% 60%/2500px 2500px;
 	background-blend-mode: difference;
 	animation: noize .2s infinite alternate;
-	z-index: 8;
+	z-index: 19;
 }
 
 @keyframes noize {
@@ -86,9 +61,9 @@ body {
 
 #pc_rim {
 
-	
+
 	width: 50%;
-    padding-bottom: 30%;
+	padding-bottom: 30%;
 
 	margin-left: 10%;
 	margin-right: 10%;
@@ -101,13 +76,13 @@ body {
 	height: 322px; */
 	border-radius: 13px;
 	background: rgb(0, 0, 0);
-	z-index: 7;
+	z-index: 18;
 }
 
 #back-lit {
 
 	width: 50%;
-    padding-bottom: 30%;
+	padding-bottom: 30%;
 
 	margin-left: 10%;
 	margin-right: 10%;
@@ -121,7 +96,7 @@ body {
 	border-radius: 13px;
 	background: rgba(0, 0, 0, 1);
 	box-shadow: 0 0 20px rgba(0, 68, 255, 0.57);
-	z-index: 0;
+	z-index: 10;
 }
 
 
@@ -131,8 +106,8 @@ body {
 #cam_holder {
 
 	width: 8%;
-    padding-bottom: 10%;
-	
+	padding-bottom: 10%;
+
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 8%;
@@ -151,13 +126,13 @@ body {
 #cam_cover {
 
 	width: 1.3%;
-    padding-bottom: 1.3%;
-	
+	padding-bottom: 1.3%;
+
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 8.44%;
 	margin-bottom: 10%;
-	
+
 	position: absolute;
 	/* top: 82px;
 	width: 14px;
@@ -171,8 +146,8 @@ body {
 #cam_lens {
 
 	width: .5%;
-    padding-bottom: .5%;
-	
+	padding-bottom: .5%;
+
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 8.9%;
@@ -194,7 +169,7 @@ body {
 #leg {
 
 	width: 7%;
-    padding-bottom: 21%;
+	padding-bottom: 21%;
 
 	margin-left: 10%;
 	margin-right: 10%;
@@ -206,13 +181,13 @@ body {
 	width: 69px;
 	height: 115px; */
 	background: rgba(70.13, 70.13, 70.13, 1);
-	z-index: 1;
+	z-index: 11;
 }
 
 #feet {
 
 	width: 27%;
-    padding-bottom: 5%;
+	padding-bottom: 5%;
 
 	margin-left: 10%;
 	margin-right: 10%;
@@ -225,25 +200,26 @@ body {
 	height: 34px; */
 	border-radius: 50px;
 	background: rgba(43.56, 43.56, 43.56, 1);
-	z-index: 2;
+	/* box-shadow: 0 0 20px rgba(40, 23, 101, 0.57); */
+	z-index: 12;
 }
 
 #feet_cover {
 
 	width: 30%;
-    padding-bottom: 3%;
+	padding-bottom: 3%;
 
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 52.5%;
 	margin-bottom: 10%;
-	
+
 	position: absolute;
 	/* top: 530px;
 	width: 320px;
 	height: 20px; */
-	background: rgb(255, 255, 255);
-	z-index: 3;
+	background: rgb(78, 78, 78);
+	z-index: 13;
 }
 
 
@@ -253,33 +229,33 @@ body {
 #logo {
 
 	width: 10%;
-    padding-bottom: 10%;
-	
+	padding-bottom: 10%;
+
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 38.15%;
 	margin-bottom: 10%;
-	
+
 	position: absolute;
 
 	/* top: 403px;
 	width: 46px;
 	height: 32px; */
-	
+
 	font-size: 1.5vw;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	color: #e3e3e3;
-	z-index: 9;
+	z-index: 20;
 }
 
 #text1 {
 	/* top: 7px; */
 
 	width: 50%;
-    padding-bottom: 10%;
-	
+	padding-bottom: 10%;
+
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 0%;
@@ -299,8 +275,8 @@ body {
 	/* top: 570px; */
 
 	width: 50%;
-    padding-bottom: 10%;
-	
+	padding-bottom: 10%;
+
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 60%;
@@ -314,4 +290,153 @@ body {
 	color: #ffa9fc;
 	text-shadow: 0 0 30px rgb(156, 210, 255);
 	z-index: 9;
+}
+
+
+/* ________________ */
+
+
+#Polygon_1 {
+	width: 222px;
+	height: 100px;
+	left: 238px;
+	top: 290px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+
+	position: absolute;
+}
+
+#Polygon_2 {
+
+	position: absolute;
+	width: 222px;
+	height: 100px;
+	left: 760px;
+	top: 290px;
+
+	background: #A2B2BE;
+}
+
+#box_top {
+	/* height: 0; */
+	/* width: 100px; */
+	background: rgb(78, 78, 78);
+	
+	width: 77%;
+	padding-bottom: 10%;
+	
+	/* border-bottom: 65px solid rgb(78, 78, 78);
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent; */
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 48%;
+	margin-bottom: 10%;
+	
+	z-index: 5;
+
+	position: absolute;
+}
+
+#box_front {
+	width: 77.5%;
+	padding-bottom: 10%;
+
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 55.8%;
+	margin-bottom: 10%;
+
+	z-index: 9;
+
+	position: absolute;
+
+	background: #D9D9D9;
+	border-radius: 21%;
+}
+#box_back {
+	width: 46%;
+	padding-bottom: 5%;
+
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 47%;
+	margin-bottom: 10%;
+
+	z-index: 4;
+
+	position: absolute;
+
+	background: rgb(78, 78, 78);
+	box-shadow: 0 0 20px rgba(255, 117, 129, 0.57);
+	border-radius: 20%;
+}
+
+
+#Line_left {
+
+	position: absolute;
+	width: 40%;
+	padding-bottom: 13%;
+
+	margin-left: 76%;
+	margin-right: 10%;
+	margin-top: 40%;
+	margin-bottom: 10%;
+
+	z-index: 6;
+
+	background: rgb(255, 255, 255);
+	transform: rotate(32deg);
+}
+
+#Line_right {
+
+	position: absolute;
+	width: 40%;
+	padding-bottom: 13%;
+
+	margin-left: 10%;
+	margin-right: 76%;
+	margin-top: 40%;
+	margin-bottom: 10%;
+
+	z-index: 6;
+
+	background: rgb(255, 255, 255);
+	transform: rotate(-32deg);
+}
+
+#Line_3 {
+
+	position: absolute;
+	width: 521px;
+	height: 0px;
+	left: 350px;
+	top: 290px;
+
+	border: 1px solid #000000;
+}
+
+#Ellipse_1 {
+
+	background: rgb(86, 206, 11);
+	box-shadow: 0 0 10px rgba(204, 255, 0, 0.57);
+
+	width: 15%;
+	padding-bottom: 2%;
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 58%;
+	margin-bottom: 10%;
+	
+	border-radius: 50px;
+
+	z-index: 10;
+
+	position: absolute;
 }
