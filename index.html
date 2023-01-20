@@ -13,7 +13,7 @@
 <body>
 	<div class="container">
 		<div class="screen">
-			<iframe src="https://youtube.com/embed/aXOChLn5ZdQ" frameborder="0" allowfullscreen></iframe>
+			<iframe src="black.html" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div id="pc_rim"></div>
 		<div id="back-lit"></div>
@@ -27,7 +27,7 @@
 		<div id="feet_cover"></div>
 
 		<div id="logo">LOL</div>
-		<marquee id="text1" width="60%" direction="left" height="100px">Generated Only Using CSS & HTML</marquee>
+		<marquee id="text1" width="60%" direction="left" height="100px">Generated Only Using Basic CSS & HTML</marquee>
 		<marquee id="text2" width="60%" direction="left" height="100px">No SVG/PNG/VECTOR Image Used</marquee>
 		<a id="text3" href="https://github.com/tathagatamishra/ExtraMilestone/tree/PC">github</a>
 
@@ -58,14 +58,15 @@
 			<li class="TV__channel"><a href="https://youtube.com/embed/dx76YPgZviE" title="Channel 4"></a></li>
 			<li class="TV__channel"><a href="https://youtube.com/embed/8X2kIfS6fb8" title="Channel 5"></a></li>
 			<li class="TV__channel"><a href="https://youtube.com/embed/OKZrjObjtgg" title="Channel 6"></a></li>
+			<li class="TV__channel"><a class="hidden" href="black.html" title="Channel x"></a></li>
 		</ul>
 
 	</div>
 </body>
 <script>
-	var buttons = document.querySelectorAll(".TV__channel a");
+	let buttons = document.querySelectorAll(".TV__channel a");
 
-	for (var i = 0; i < buttons.length; i++) {
+	for (let i = 0; i < buttons.length; i++) {
 		buttons[i].addEventListener("click", function (e) {
 			document.querySelector(".screen iframe").src = this.href;
 			e.preventDefault();
