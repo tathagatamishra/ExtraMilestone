@@ -6,18 +6,20 @@
 
 ### https://personal-computer.netlify.app/
 
+0. Only Buttons are interactive
 
-The index.html contains all major part
+1. The index.html contains all major part
 
-The noise.html contains only the noise effect
+2. The noise.html contains only the noise effect
 
-Noise generated using CSS, created by animating repeating-radial-gradient
+3. Noise generated using CSS, created by animating repeating-radial-gradient
 
-noise.htm is connected with index.html by a <a> tag inside a button div
+4. noise.htm is connected with index.html by a <a> tag inside a button div
 
-every circular buttons are clickable & connected to a specific youtube video
+5. every circular buttons are clickable & connected to a specific youtube video
 
-Everything created/generated only using very basic CSS properties
+6. Everything created/generated only using very basic CSS properties
+
 
 ## Two Difficult Things That I Did Using CSS & JS
 
