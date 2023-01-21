@@ -24,7 +24,6 @@ html {
   caret-color: transparent;
   /* border: solid red; */
   background: rgb(255, 255, 255);
-  /* cursor: url(icons8-lady-beetle-10.png), pointer; */
 }
 
 
@@ -548,25 +547,6 @@ iframe {
   /* text-shadow: 0 0 30px rgb(254, 192, 255); */
 }
 
-#text2 {
-  z-index: 9;
-
-  width: 50%;
-  padding-bottom: 10%;
-
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 75%;
-  margin-bottom: 10%;
-  position: absolute;
-
-  color: #ffdcfe;
-  font-size: 1.3vw;
-  font-weight: bold;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  /* text-shadow: 0 0 30px rgb(156, 210, 255); */
-}
 #github {
   z-index: 9;
 
@@ -585,4 +565,5 @@ iframe {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #ffe4fd;
+  cursor: url(icons8-lady-beetle-10.png), pointer;
 }
