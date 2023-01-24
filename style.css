@@ -164,7 +164,7 @@ iframe {
   z-index: 12;
 
   width: 27%;
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
 
   margin-left: 10%;
   margin-right: 10%;
@@ -172,23 +172,10 @@ iframe {
   margin-bottom: 10%;
   position: absolute;
 
-  border-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
   background: rgba(43.56, 43.56, 43.56, 1);
-}
-
-#feet_cover {
-  z-index: 13;
-
-  width: 30%;
-  padding-bottom: 3%;
-
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 52.5%;
-  margin-bottom: 10%;
-  position: absolute;
-
-  background: rgb(78, 78, 78);
 }
 
 
