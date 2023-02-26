@@ -4,7 +4,7 @@
 
 ### no image / png / vector graphics used
 
-### https://personal-computer.netlify.app/
+### https://potato-pc.netlify.app/
 
 0. Only Buttons are interactive
 
