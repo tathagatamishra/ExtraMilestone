@@ -1,3 +1,5 @@
+<img align="left" src="https://media.giphy.com/media/5W2l2EXfBpYulPB7yT/giphy.gif" width="70">
+
 # POTATO PC
 
 ### Deployed on Netlify &#160; <img src="https://media.giphy.com/media/FbUuPsOW3oOCdAHexF/giphy.gif" width="50"> &#160; https://potato-pc.netlify.app/
