@@ -1,10 +1,10 @@
-# Personal Computer
+# POTATO PC
+
+### Deployed on Netlify :  https://potato-pc.netlify.app/
 
 ## Created Only Using `CSS` & `HTML` & `JS`
 
 ### no `image` / `png` / `svg` / `vector graphics` used
-
-### https://potato-pc.netlify.app/
 
 0. Only Buttons are interactive
 
