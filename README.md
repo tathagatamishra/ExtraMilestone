@@ -26,6 +26,26 @@
 1. Creating the NOISE EFFECT using CSS
 2. Connecting different YouTube videos to different Buttons using JS
 
+## NOISE EFFECT IN CSS
+```sh
+  <style>
+        body {
+            background: repeating-radial-gradient(rgb(0, 0, 0) 0 0.0001%,
+                    rgb(255, 255, 255) 0 0.0002%) 50% 0/2500px 2500px,
+                repeating-conic-gradient(rgb(255, 255, 255) 0 0.0001%,
+                    rgb(0, 0, 0) 0 0.0002%) 60% 60%/2500px 2500px;
+            background-blend-mode: difference;
+            animation: noize 0.2s infinite alternate;
+        }
+
+        @keyframes noize {
+            100% {
+                background-position: 50% 0, 60% 50%;
+            }
+        }
+    </style>
+```
+
 
 ### If you like this project, please SUBSCRIBE to my YouTube channel
 ### https://www.youtube.com/@vfxinvein
