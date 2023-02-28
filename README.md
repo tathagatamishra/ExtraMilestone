@@ -1,6 +1,6 @@
 # POTATO PC
 
-### Deployed on Netlify :  https://potato-pc.netlify.app/
+### Deployed on Netlify &#160; &#10148; &#160; https://potato-pc.netlify.app/
 -----------------------------------------------------------
 
 ## Created Only Using `CSS` & `HTML` & `JS`
